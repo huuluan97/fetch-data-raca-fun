@@ -223,10 +223,10 @@ Prices NFT Raca ${moment().format("DD/MM/YYYY hh:mm:ss")}
       this.client.sendMessage(message.chat.id, "Raca Scam");
     }
 
-    if (text.includes("/mtm")) {
-      //const metamonCount = await this.fetchListDataMetamon(text);
-      this.client.sendMessage(message.chat.id, "Raca Scam");
-    }
+    // if (text.includes("/mtm")) {
+    //   //const metamonCount = await this.fetchListDataMetamon(text);
+    //   this.client.sendMessage(message.chat.id, "Raca Scam");
+    // }
 
     // fsm.ongotstart = () => {
     //   lastMessage = this.client.sendMessage(
